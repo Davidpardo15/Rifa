@@ -16,7 +16,6 @@ body {
   top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 table {
   width: 800px;
@@ -71,10 +70,13 @@ img{
 }
 
 @media (max-width:768px){
+  html{
+    height: 180%;
+   }
   table{
     width: 100px;
   }
-  .logo{
-    padding-top: 5px;
+  .container {
+    top: 100%;
   }
 }

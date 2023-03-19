@@ -69,3 +69,12 @@ img{
 .pad{
   padding-bottom: 10px;
 }
+
+@media (max-width:768px){
+  table{
+    width: 100px;
+  }
+  .logo{
+    padding-top: 5px;
+  }
+}

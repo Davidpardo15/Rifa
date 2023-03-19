@@ -21,6 +21,7 @@ table {
   width: 800px;
   border-collapse: collapse;
   overflow: hidden;
+  border-radius: 5%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 th,
@@ -72,14 +73,17 @@ img{
   padding-bottom: 10px;
 }
 
-@media (max-width:480px){
+@media (max-width:768px){
   html{
-    height: 180%;
+    height: 260%;
    }
   table{
     width: 200px;
   }
   .container {
-    top: 100%;
+    top: 130%;
+  }
+  img{
+    visibility: hidden;
   }
 }
